@@ -1,0 +1,13 @@
+Tester	Andrew Stoian	
+Test date	16.09.2018	
+Duration	1h	
+Test object:	Test export to excel function on https://staging.photoandgrapher.com	
+Features to be tested	Test export to excel function in user lists and artworks	
+Features not to be tested	Create account, create photographer, new admin functions	
+		
+Test log		
+Input actions	Expeced outcome	Actual outcome
+entered client account lists, click export to excel	p&g_users.xlsx file should be downloaded via browser	As expected
+entered photographer account lists, click export to excel	p&g_photographers.xlsx file should be downloaded via browser	As expected
+entered admin account lists, click export to excel 	p&g_admins.xlsx file should be dowloaded	As expected
+entered artworks lists, click export to excel	p&g_artworks.xlsx file should be downloaded	message alert "something went wrong", file not downloading
